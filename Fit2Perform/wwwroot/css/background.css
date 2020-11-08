@@ -4,13 +4,14 @@ body, html {
     height: 100%;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("~/Images/DKBFSAndy.PNG");
+
+
+#AboutBackground {
+    background-image: url("../images/dkbfsandy.png");
+    background-repeat: no-repeat;
+    background-position: center;
     /* Full height */
     height: 100%;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
+   
     background-size: cover;
 }
